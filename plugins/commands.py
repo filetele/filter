@@ -25,9 +25,9 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search"),
-            InlineKeyboardButton('📢 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📢', url=f'https://t.me/tamil4katmos')
+            InlineKeyboardButton('📢 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📢', url=f'https://t.me/itz_showtime')
             ],[
-            InlineKeyboardButton('😇 movie search group 😇', url='https://t.me/+BTloleyZM1IxMzhl')
+            InlineKeyboardButton('😇 movie search group 😇', url='https://t.me/+2O3oGTtM1dllOWY1')
             ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -43,12 +43,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ ADD ME TO YOUR GROUP ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("📢 GROUP 1 📢", url="https://t.me/+BTloleyZM1IxMzhl"),
-            InlineKeyboardButton("📢 GROUP 2 📢", url="https://t.me/+4PZWTzj7K3EyZTc1")
+            InlineKeyboardButton("📢 GROUP 📢", url="https://t.me/+2O3oGTtM1dllOWY1")
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search")
             ],[
-            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/tamil4ksupport"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -95,12 +93,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ ADD ME TO YOUR GROUP ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("📢 GROUP 1 📢", url="https://t.me/+BTloleyZM1IxMzhl"),
-            InlineKeyboardButton("📢 GROUP 2 📢", url="https://t.me/+4PZWTzj7K3EyZTc1")
+            InlineKeyboardButton("📢 GROUP 📢", url="https://t.me/+2O3oGTtM1dllOWY1")
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search")
             ],[
-            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/tamil4ksupport"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
